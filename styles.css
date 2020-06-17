@@ -1,0 +1,264 @@
+@font-face {
+  font-family: MarkPro;
+  src: url(/assets/Fonts/MarkPro.ttf) format("truetype"),
+    url(/assets/Fonts/MarkProBold.ttf) format("truetype"),
+    url(/assets/Fonts/MarkProHeavy.ttf) format("truetype"),
+    url(/assets/Fonts/MarkProMedium.ttf) format("truetype");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: MarkPro, sans-serif;
+  width: 1200px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo {
+  font-family: Mark Pro;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 30px;
+  text-decoration: none;
+
+  background: -webkit-linear-gradient(-90deg, #e815ec 0%, #530cad 72.4%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-span {
+  flex: 1;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links {
+  text-decoration: none;
+  font-family: Mark Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: black;
+  margin-left: 80px;
+}
+
+.HeroSection {
+  margin-top: 8rem;
+}
+
+.float-container {
+  padding: 0;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row-reverse;
+}
+
+.float-child {
+  width: 50%;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-pic {
+  display: flex;
+}
+
+.profile-pic-span {
+  flex: 1;
+}
+
+.picture {
+  width: 391px;
+  border-radius: 10px;
+}
+
+.hero-intro-1 {
+  font-family: Mark Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  margin-top: 0;
+}
+
+.hero-intro-2 {
+  top: 56px;
+  font-family: Mark Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+}
+
+.hero-intro-3 {
+  font-family: Mark Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+/*---------WORK SECTION---------*/
+
+.WorkSection {
+  margin-top: 12rem;
+}
+
+.project {
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+.projects-span {
+  flex: 1;
+}
+
+.projects-heading {
+  font-family: Mark Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  color: #ffffff;
+  padding-left: 50px;
+}
+
+.p1 {
+  background: rgba(120, 98, 255, 0.5);
+}
+
+.p2 {
+  background: linear-gradient(180deg, #78e7ff 0%, #ca96ff 100%);
+}
+
+.p3 {
+  background: linear-gradient(180deg, #ff5c00 0%, #ffe600 100%);
+}
+
+.p4 {
+  background: linear-gradient(180deg, #ffe9a7 0%, #ffe300 100%);
+}
+
+.p5 {
+  background: linear-gradient(180deg, #fccfde 0%, #ff0057 100%);
+}
+
+.p6 {
+  background: linear-gradient(206.3deg, #e815ec 8.71%, #003bd3 67.39%);
+}
+
+/*---------SKILLS SECTION---------*/
+
+.SkillsSection {
+  margin-top: 8rem;
+}
+
+.skills-heading {
+  font-size: 38px;
+}
+
+.checkmark-circle {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 50%;
+  background: linear-gradient(232.64deg, #e815ec 8.71%, #530cad 67.39%);
+  align-items: center;
+  display: flex;
+}
+
+.fa-check {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: x-large;
+}
+
+.skills-checkmark {
+  display: flex;
+  align-items: center;
+}
+
+.skills-details {
+  margin-left: 25px;
+  font-family: Mark Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.skills-contact-button {
+  border: none;
+  background: linear-gradient(192.65deg, #e815ec 8.71%, #530cad 67.39%);
+  margin-top: 30px;
+  border-radius: 38px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 400px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.skills-contact-button:hover {
+  transform: translateY(-0.6em);
+}
+
+.skills-contact-button-link {
+  font-family: Mark Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+}
+
+/*-----------FOOTER------------*/
+
+.footer {
+  margin-top: 100px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-span {
+  flex: 1;
+}
+
+.footer-social-links a {
+  text-decoration: none;
+  font-size: xx-large;
+  margin-left: 30px;
+  color: #30005b;
+  transition: 0.2s;
+}
+
+.footer-social-links a:hover {
+  transform: scale(2, 2);
+}
+
+.footer-copyright {
+  font-size: 1.5rem;
+  color: #30005b;
+}
