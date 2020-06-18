@@ -20,6 +20,15 @@ body {
   background: #E5E5E5;
 }
 
+.progress {
+  background: linear-gradient(to right, #e815ec var(--scroll), transparent 0);
+  background-repeat: no-repeat;
+  position: fixed;
+  width: 100%;
+  height: 4px;
+  z-index: 1;
+}
+
 nav {
   display: flex;
   align-items: center;
